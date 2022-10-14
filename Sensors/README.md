@@ -11,7 +11,7 @@ The thread is written in POSIX.
 Intialize a class by calling it and naming a variable.
 
 ``` C
-handle object = Open_Object(args...);
+handle_t object = Open_Object(args...);
 ```
 
 Perform functions using methods:
