@@ -11,13 +11,13 @@ The thread is written in POSIX.
 Intialize a class by calling it and naming a variable.
 
 ``` C
-	handle object = Open_Object(args...);
+handle object = Open_Object(args...);
 ```
 
 Perform functions using methods:
 	
 ``` C
-	object.Method(&object, args...);
+object.Method(&object, args...);
 ```
 
 Since C does not have an ability to perform a SELF struction within a class, the
